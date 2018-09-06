@@ -13,7 +13,7 @@ import timetools
 CONN = sqlite3.connect('example.db', check_same_thread=False)
 CURSOR = CONN.cursor()
 # Should probably store this elsewhere, but for simpilicity's sake here it is.
-API_KEY = 'cf1272d922e1345d4e32f6ac7085fdd7'
+API_KEY = ''
 SEATTLE_LAT = 47.6062
 SEATTLE_LONG = -122.3321
 BASE_URL = 'https://api.darksky.net/forecast'
